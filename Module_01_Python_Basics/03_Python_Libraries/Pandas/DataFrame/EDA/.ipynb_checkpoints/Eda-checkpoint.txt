@@ -1,0 +1,27 @@
+Null Value Handling
+There are two types of null values in a dataset:
+
+Valid null value: Represents implicit missing records
+
+Invalid null value: Represents explicit missing records
+
+Guidelines for Handling Null Values
+If the percentage of missing values is less than 10%, remove the observations.
+
+If the percentage of missing values is between 20% and 70%, impute the missing records.
+
+If the percentage of missing values is more than 80%, remove the attribute (column) entirely.
+
+
+
+Exploratory Data Analysis (EDA)
+
+Exploratory Data Analysis is a method used to understand patterns present in the data.
+There are generally three types of EDA:
+
+Univariate Analysis: When we analyze a single column at a time, it is called univariate analysis.
+
+Bivariate Analysis: When we analyze two columns together, it is called bivariate analysis.
+
+Multivariate Analysis: When we analyze more than two columns at the same time, it is called multivariate analysis.
+
